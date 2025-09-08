@@ -44,8 +44,11 @@
         }
         
         .logo {
-            width: 180px;
-            margin-bottom: 30px;
+            max-width: 220px;
+            margin: 0 auto 30px;
+            display: block;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
         }
         
         h1 {
@@ -93,23 +96,6 @@
             font-size: 1.1rem;
         }
         
-        .social-icons {
-            display: flex;
-            justify-content: center;
-            margin-top: 30px;
-            gap: 20px;
-        }
-        
-        .social-icons a {
-            color: white;
-            font-size: 2rem;
-            transition: transform 0.3s ease;
-        }
-        
-        .social-icons a:hover {
-            transform: scale(1.2);
-        }
-        
         footer {
             text-align: center;
             padding: 20px;
@@ -125,6 +111,10 @@
             .btn {
                 padding: 14px 25px;
                 font-size: 1.1rem;
+            }
+            
+            .logo {
+                max-width: 180px;
             }
         }
     </style>
@@ -148,12 +138,6 @@
         <div class="contact-info">
             <p><i class="fas fa-phone"></i> 85 98206-6196</p>
             <p><i class="far fa-envelope"></i> contatoaaem@alternativaassistencia.com</p>
-        </div>
-        
-        <div class="social-icons">
-            <a href="#"><i class="fab fa-instagram"></i></a>
-            <a href="#"><i class="fab fa-facebook"></i></a>
-            <a href="#"><i class="fab fa-tiktok"></i></a>
         </div>
     </div>
     
